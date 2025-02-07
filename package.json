@@ -6,7 +6,8 @@
         "dev": "vite",
         "build": "vite build && copyfiles -u 1 dist/index.html dist/404.html",
         "deploy": "gh-pages -d dist",
-        "preview": "vite preview"
+        "preview": "vite preview",
+        "add-nojekyll": "echo. > dist/.nojekyll"
     },
     "dependencies": {
         "react": "^18.2.0",
