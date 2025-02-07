@@ -1,6 +1,6 @@
 {
     "name": "my-url-shortener",
-    "homepage": "https://kavirajvedi.github.io/qikly/",
+    "homepage": "https://kavirajvedi.github.io/Qikly/",
     "version": "1.0.0",
     "scripts": {
         "dev": "vite",
