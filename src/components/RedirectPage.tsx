@@ -22,7 +22,7 @@ const RedirectPage: React.FC = () => {
         // Redirect to the original URL
         window.location.href = foundUrl;
       } else {
-        setError("Short URL not found.");
+        setError("Click on URL Shortener."); //was Short URL not found., changed as homepage
       }
     }
   }, [short]);
